@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang = "en" dir ="ltr">
+    <head>
+        <meta charset="utf-8">
+        <!--{{"Our happy place, we can do python stuff here"}}-->
+        <title> {{title}} </title>
+    </head>
+    
+    <body>
+        <p> this is picture of a dog </p>
+        <p> <img src = "{{picture}}" alt= "dog picture"> </p>
+        <form action="/saved" method="POST">
+            <select name="URL" >
+                <option value="{{picture}}"></option>
+            </select>
+            <input type="submit" value="saved dog">
+        </form>
+    </body>
+    
+</html>
+
+        
